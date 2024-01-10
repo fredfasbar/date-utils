@@ -1,0 +1,38 @@
+{
+  "private": "true",
+  "name": "date.utils",
+  "version": "5.0.0",
+  "description": "date-utils is a Node.js module that provides convenient methods for date and time manipulation, parsing, formatting, timezone management, and more.",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "lint": "eslint .",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "manipulation",
+    "parsing",
+    "formatting",
+    "timezone",
+    "utility"
+  ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/fredfasbar/date-utils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fredfasbar/date-utils/issues"
+	},
+  "author": "fredfasbar",
+  "license": "Apache-2.0"
+}
