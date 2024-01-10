@@ -1,6 +1,5 @@
 'use strict';
 
-// Подключение модулей из соответствующих файлов
 const DateParsing = require('./src/dateParsing');
 const DateManipulation = require('./src/dateManipulation');
 const DateFormatting = require('./src/dateFormatting');

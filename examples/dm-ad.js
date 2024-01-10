@@ -1,6 +1,3 @@
-// examples/advancedUsage.js
-
-// Импортируем функции из модуля dateManipulation
 const {
     addDays,
     subtractDays,
@@ -9,7 +6,6 @@ const {
     calculateDateInterval
   } = require('../src/dateManipulation');
   
-  // Пример использования функций
   const startDate = new Date('2023-05-15T12:00:00Z');
   const endDate = new Date('2023-06-15T12:00:00Z');
   

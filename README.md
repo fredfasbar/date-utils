@@ -1,6 +1,6 @@
-# date-utils
+# date.utils
 
-date-utils is a Node.js module that provides convenient methods for date and time manipulation, parsing, formatting, timezone management, and more.
+date.utils is a Node.js module that provides convenient methods for date and time manipulation, parsing, formatting, timezone management, and more.
 
 ## Package
 
@@ -11,7 +11,7 @@ date-utils is a Node.js module that provides convenient methods for date and tim
 To install the package, use npm:
 
 ```bash
-npm install date-utils@latest
+npm install date.utils@latest
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npm install date-utils@latest
 You can parse date strings using the `parseDate` function:
 
 ```javascript
-const { parseDate } = require('date-utils');
+const { parseDate } = require('date.utils');
 
 const dateString = '2023-05-15T12:00:00Z';
 const parsedDate = parseDate(dateString);
@@ -33,7 +33,7 @@ console.log('Parsed date:', parsedDate);
 Formatting dates into specific formats is achieved using the `formatDate` function:
 
 ```javascript
-const { formatDate } = require('date-utils');
+const { formatDate } = require('date.utils');
 
 const currentDate = new Date();
 const formattedDate = formatDate(currentDate);
@@ -45,7 +45,7 @@ console.log('Formatted date:', formattedDate);
 Managing timezones can be done using the `setTimezone` function:
 
 ```javascript
-const { setTimezone } = require('date-utils');
+const { setTimezone } = require('date.utils');
 
 const currentDate = new Date();
 const timezone = 'America/New_York';

@@ -2,7 +2,7 @@
   "private": "true",
   "name": "date.utils",
   "version": "5.0.0",
-  "description": "date-utils is a Node.js module that provides convenient methods for date and time manipulation, parsing, formatting, timezone management, and more.",
+  "description": "date.utils is a Node.js module that provides convenient methods for date and time manipulation, parsing, formatting, timezone management, and more.",
   "directories": {
     "doc": "docs",
     "example": "examples",

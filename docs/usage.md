@@ -1,7 +1,7 @@
 # Usages
 Date Formatting
 ```js
-const { formatCustomDate } = require('date-utils');
+const { formatCustomDate } = require('date.utils');
 
 const date = new Date('2023-05-15T12:00:00Z');
 const customFormattedDate = formatCustomDate(date, 'YYYY-MM-DD HH:mm:ss');
@@ -10,7 +10,7 @@ console.log('Custom formatted date:', customFormattedDate);
 
 Date Parsing
 ```js
-const { parseDate, getCurrentTimestamp } = require('date-utils');
+const { parseDate, getCurrentTimestamp } = require('date.utils');
 
 const dateString = '2023-05-15T12:00:00Z';
 
@@ -23,7 +23,7 @@ console.log('Current timestamp:', timestamp);
 
 Date Manipulation
 ```js
-const { addDays, subtractDays, addMonths, addYears, calculateDateInterval } = require('date-utils');
+const { addDays, subtractDays, addMonths, addYears, calculateDateInterval } = require('date.utils');
 
 const date = new Date('2023-05-15T12:00:00Z');
 
@@ -47,7 +47,7 @@ console.log('Interval between dates:', interval, 'days');
 
 Timezone Utils
 ```js
-const { setTimezone, getCurrentTimezone, getTimezones } = require('date-utils');
+const { setTimezone, getCurrentTimezone, getTimezones } = require('date.utils');
 
 const date = new Date('2023-05-15T12:00:00Z');
 const timezone = 'Europe/Berlin';
@@ -64,10 +64,10 @@ console.log('Available timezones:', availableTimezones);
 # Advanced Usages
 ```js
 // Import modules for working with dates
-const { parseDate, formatDate } = require('date-utils/src/dateParsing');
-const { addDays, subtractDays, addMonths, addYears, calculateDateInterval } = require('date-utils/src/dateManipulation');
-const { formatCustomDate } = require('date-utils/src/dateFormatting');
-const { setTimezone, getCurrentTimezone, getTimezones } = require('date-utils/src/timezoneUtils');
+const { parseDate, formatDate } = require('date.utils/src/dateParsing');
+const { addDays, subtractDays, addMonths, addYears, calculateDateInterval } = require('date.utils/src/dateManipulation');
+const { formatCustomDate } = require('date.utils/src/dateFormatting');
+const { setTimezone, getCurrentTimezone, getTimezones } = require('date.utils/src/timezoneUtils');
 
 const dateString = '2023-05-15T12:00:00Z';
 const parsedDate = parseDate(dateString);
